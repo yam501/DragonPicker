@@ -18,11 +18,10 @@ public class DragonPicker : MonoBehaviour
         {
             GameObject tShieldGo = Instantiate<GameObject>(energyShieldPrefab);
             tShieldGo.transform.position = new Vector3(0, energyShieldBottomY, 0);
-            tShieldGo.transform.localScale = new Vector3(1 * i, 1 * 1, 1 * i);
+            tShieldGo.transform.localScale = new Vector3(1 * i, 1 * i, 1 * i);
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         
