@@ -5,7 +5,7 @@ using UnityEngine;
 public class DragonEgg : MonoBehaviour
 {
     public static float bottomY = -30f;
-    // Start is called before the first frame update
+    
     void Start()
     {
         
@@ -29,6 +29,8 @@ public class DragonEgg : MonoBehaviour
         if(transform.position.y < bottomY)
         {
             Destroy(this.gameObject);
+            DragonPicker apScript = Camera.main.GetComponent<DragonPicker>();
+            apScript.DragonEggDestroyed();
         }
     }
 }
