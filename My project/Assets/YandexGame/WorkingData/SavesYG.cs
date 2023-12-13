@@ -15,6 +15,6 @@ namespace YG
 
         public int score;
         public int bestScore = 0;
-
+        public string[] achivment;
     }
 }
