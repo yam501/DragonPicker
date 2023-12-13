@@ -10,6 +10,7 @@ public class DragonPicker : MonoBehaviour
     private void OnDisable() => YandexGame.GetDataEvent -= GetLoadSave;
     public GameObject energyShieldPrefab;
     public TextMeshProUGUI scoreGT;
+    public TextMeshProUGUI playerName;
     
     public int numEnergyShield = 3;
 
@@ -58,7 +59,7 @@ public class DragonPicker : MonoBehaviour
         {
             GameObject scoreGO = GameObject.Find("Score");
             scoreGT = scoreGO.GetComponent<TextMeshProUGUI>();
-            UserSave(int.Parse(scoreGT.text));
+            UserSave(int.Parse(scoreGT.text), YandexGame.savesData.bestScore);
             SceneManager.LoadScene("_0Scene");
             GetLoadSave();
         }
@@ -67,11 +68,18 @@ public class DragonPicker : MonoBehaviour
     public void GetLoadSave()
     {
         Debug.Log(YandexGame.savesData.score);
+        GameObject playerNamePrefabGUI = GameObject.Find("PlayerName");
+        playerName = playerNamePrefabGUI.GetComponent<TextMeshProUGUI>();
+        playerName.text = YandexGame.playerName;
     }
 
-    public void UserSave(int currentScore)
+    public void UserSave(int currentScore, int currentBestScore)
     {
         YandexGame.savesData.score = currentScore;
+        if (currentScore > currentBestScore)
+        {
+            YandexGame.savesData.bestScore = currentScore;
+        }
         YandexGame.SaveProgress();
     }
 }
