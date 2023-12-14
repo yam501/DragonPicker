@@ -60,12 +60,14 @@ public class DragonPicker : MonoBehaviour
             GameObject scoreGO = GameObject.Find("Score");
             scoreGT = scoreGO.GetComponent<TextMeshProUGUI>();
             string[] achivmentList;
+            achivmentList = new string[10];
             achivmentList = YandexGame.savesData.achivment;
             achivmentList[0] = "Береги щиты!";
             UserSave(int.Parse(scoreGT.text), YandexGame.savesData.bestScore, achivmentList);
             YandexGame.NewLeaderboardScores("TOPPlayerSCORE",int.Parse(scoreGT.text));
-            SceneManager.LoadScene("_0Scene");
+            YandexGame.RewVideoShow(0);
             GetLoadSave();
+            SceneManager.LoadScene("_0Scene");
         }
     }
 

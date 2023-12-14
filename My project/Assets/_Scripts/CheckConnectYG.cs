@@ -32,20 +32,21 @@ public class CheckConnectYG : MonoBehaviour
             Debug.Log("User not auth");
             YandexGame.AuthDialog();
         }
-        GameObject scoreGO = GameObject.Find("Score");
-        scoreBest = scoreGO.GetComponent<TextMeshProUGUI>();
+        YandexGame.RewVideoShow(0);
+        GameObject scoreBEST = GameObject.Find("BestScore");
+        scoreBest = scoreBEST.GetComponent<TextMeshProUGUI>();
         scoreBest.text = "Best score: " + YandexGame.savesData.bestScore.ToString();
-        if ((YandexGame.savesData.achivment)[0] == null & GameObject.Find("ListAchiv"))
-        {
-            
-        }
-        else
-        {
+        // if ((YandexGame.savesData.achivment)[0] == null & GameObject.Find("ListAchiv"))
+        // {
+        //     
+        // }
+        // else
+        // {
             foreach (string value in YandexGame.savesData.achivment)
             {
                 GameObject.Find("ListAchiv").GetComponent<TextMeshProUGUI>().text = GameObject.Find("ListAchiv").GetComponent<TextMeshProUGUI>().text + value + '\n';
             }
-        }
+        // }
     }
 
     // Update is called once per frame
