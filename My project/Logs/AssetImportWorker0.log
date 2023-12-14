@@ -1023,3 +1023,255 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+[usbmuxd] Detached: 42 40f5edf17411b82dde03355d4ec4b0830199c82f
+[usbmuxd] Attached: 43 40f5edf17411b82dde03355d4ec4b0830199c82f
+[usbmuxd] Detached: 43 40f5edf17411b82dde03355d4ec4b0830199c82f
+[usbmuxd] Attached: 44 40f5edf17411b82dde03355d4ec4b0830199c82f
+[usbmuxd] Detached: 44 40f5edf17411b82dde03355d4ec4b0830199c82f
+[usbmuxd] Attached: 45 40f5edf17411b82dde03355d4ec4b0830199c82f
+========================================================================
+Received Import Request.
+  Time since last request: 24614.175928 seconds.
+  path: Assets/_Scenes/_0Scene.unity
+  artifactKey: Guid(59eab1938400a2644aa6a61104ba2599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/_0Scene.unity using Guid(59eab1938400a2644aa6a61104ba2599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003c81345d06c7f8a9e3223287cf428b') in 0.350084 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016544 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Misha\Documents\GitHub\DragonPicker\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Misha\Documents\GitHub\DragonPicker\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.422 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2427ms)
+		BeginReloadAssembly (643ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (54ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (241ms)
+		EndReloadAssembly (1587ms)
+			LoadAssemblies (208ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (613ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (640ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (85ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (387ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3148 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (80.9 KB). Loaded Objects now: 3676.
+Memory consumption went from 113.4 MB to 113.3 MB.
+Total: 11.102000 ms (FindLiveObjects: 0.366600 ms CreateObjectMapping: 0.314400 ms MarkObjects: 10.209400 ms  DeleteObjects: 0.210200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007077 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Misha\Documents\GitHub\DragonPicker\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Misha\Documents\GitHub\DragonPicker\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.112 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2113ms)
+		BeginReloadAssembly (275ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1667ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (487ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (138ms)
+			SetupLoadedEditorAssemblies (762ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (62ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (520ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3148 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (81.0 KB). Loaded Objects now: 3679.
+Memory consumption went from 113.4 MB to 113.3 MB.
+Total: 4.534700 ms (FindLiveObjects: 0.318700 ms CreateObjectMapping: 0.331800 ms MarkObjects: 3.572900 ms  DeleteObjects: 0.310000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 367.712685 seconds.
+  path: Assets/_Scripts/ADRewards.cs
+  artifactKey: Guid(aaabef3e06acc464ebd78426768e27cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/ADRewards.cs using Guid(aaabef3e06acc464ebd78426768e27cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002363 seconds  code(4) message(Build asset version error: assets/_scripts/adrewards.cs in SourceAssetDB has modification time of '2023-12-14T14:41:39.4617484Z' while content on disk has modification time of '2023-12-14T14:41:46.8632806Z')
+  ERROR: Build asset version error: assets/_scripts/adrewards.cs in SourceAssetDB has modification time of '2023-12-14T14:41:39.4617484Z' while content on disk has modification time of '2023-12-14T14:41:46.8632806Z'
+========================================================================
+Received Import Request.
+  Time since last request: 5.004674 seconds.
+  path: Assets/_Scripts/ADRewards.cs
+  artifactKey: Guid(aaabef3e06acc464ebd78426768e27cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/ADRewards.cs using Guid(aaabef3e06acc464ebd78426768e27cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28818ab53e0769e9ddde87c484fe6ea') in 0.019391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.409690 seconds.
+  path: Assets/_Scripts/ADRewards.cs
+  artifactKey: Guid(aaabef3e06acc464ebd78426768e27cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/ADRewards.cs using Guid(aaabef3e06acc464ebd78426768e27cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218a027b142f5aa66d0bbc4b9495b4e4') in 0.002724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.552321 seconds.
+  path: Assets/_Scripts/ADRewards.cs
+  artifactKey: Guid(aaabef3e06acc464ebd78426768e27cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/ADRewards.cs using Guid(aaabef3e06acc464ebd78426768e27cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f12f157c4c8d4aa7fd006edbf7d2da') in 0.003468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.694854 seconds.
+  path: Assets/_Scripts/ADRewards.cs
+  artifactKey: Guid(aaabef3e06acc464ebd78426768e27cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/ADRewards.cs using Guid(aaabef3e06acc464ebd78426768e27cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fbb6b9601133d03d1a8572e9260f4d') in 0.050578 seconds 
+[usbmuxd] Detached: 45 40f5edf17411b82dde03355d4ec4b0830199c82f
+[usbmuxd] Attached: 46 40f5edf17411b82dde03355d4ec4b0830199c82f
+========================================================================
+Received Import Request.
+  Time since last request: 3392.045799 seconds.
+  path: Assets/_Scripts/ADRewards.cs
+  artifactKey: Guid(aaabef3e06acc464ebd78426768e27cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/ADRewards.cs using Guid(aaabef3e06acc464ebd78426768e27cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6965931af7a88f2e0e675048fb20a14b') in 0.036389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.091998 seconds.
+  path: Assets/_Scripts/ADRewards.cs
+  artifactKey: Guid(aaabef3e06acc464ebd78426768e27cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/ADRewards.cs using Guid(aaabef3e06acc464ebd78426768e27cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067a9f61a8dd342fb5d779e95e005ed6') in 0.003724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 904.100801 seconds.
+  path: Assets/_Scripts/ADRewards.cs
+  artifactKey: Guid(aaabef3e06acc464ebd78426768e27cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/ADRewards.cs using Guid(aaabef3e06acc464ebd78426768e27cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a024d5ace8c43ba0645da0b8c04e8d') in 0.020857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 870.734600 seconds.
+  path: Assets/_Scripts/ADRewards.cs
+  artifactKey: Guid(aaabef3e06acc464ebd78426768e27cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/ADRewards.cs using Guid(aaabef3e06acc464ebd78426768e27cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4ec0ec32b72f1563654aeb035a6c87') in 0.184761 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007813 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Misha\Documents\GitHub\DragonPicker\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Misha\Documents\GitHub\DragonPicker\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.350 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2353ms)
+		BeginReloadAssembly (373ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (142ms)
+		EndReloadAssembly (1837ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (979ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (566ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (65ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (333ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3148 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (81.0 KB). Loaded Objects now: 3682.
+Memory consumption went from 113.4 MB to 113.3 MB.
+Total: 97.734800 ms (FindLiveObjects: 6.202200 ms CreateObjectMapping: 0.271600 ms MarkObjects: 90.397900 ms  DeleteObjects: 0.861600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
