@@ -13,17 +13,9 @@ public class ADRewards : MonoBehaviour
 
     private void OnDisable() => YandexGame.CloseVideoEvent -= Rewarded;
 
-    void Rewarded(int id)
+    void Rewarded()
     {
-        if (id == 1)
-        {
-            Debug.Log("Награда");
-        }
-        else
-        {
-            Debug.Log("Без награды");
-
-        }
+        Debug.Log("Награда");
     }
 
     public void OpenAD()
